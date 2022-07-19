@@ -1,0 +1,94 @@
+<DOCTYPE hmtl>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			*{
+				box-sizing: border-box;
+				background-color: rgb(129, 223, 247);
+			}
+			.Top{
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-top: 0px;
+				padding-bottom: 20px;
+				text-align: center;
+				color: Black;
+				font-size: 20px;
+			
+			}
+			.Bottom{
+				padding-left: 25px;
+				padding-right: 25px;
+				padding-top: 0px;
+				padding-bottom: 0px;
+				text-align: center;
+				color: Black;
+				font-size: 20px;
+			}
+			.Picture{
+				border: 1px solid;
+				border-color: #1b3b1a;
+				margin-bottom: 0px;
+				width:auto;
+				height:30%;
+			}
+			.h1{
+				color: #0a0a0a;
+			}
+			.h2{
+				color: #111111;
+				text-align: center;
+			}
+			.h3{
+				color: #070707;
+			}
+			a:link{
+				color: Green;
+			}
+			a:visited{
+				color: grey;
+			}
+			a:hover{
+				color: #401CF4;
+			}
+			a:active{
+				color: mediumpurple;
+			}
+			@media screen and (max-width: 300px){
+				.Top, .Middle, .Bottom{
+					width: 100%;
+				}
+			}
+	</style>
+	</head>
+	<body>
+		<div class="Top">
+		
+				<img src="janiza.jpg" alt="janiza" class="Picture">
+                <h1 class="h1">Janiza Alvaro</h1>
+				<p>BSIT Student</p>
+				<a href="mailto:janiza.alvaro@lspu.edu.ph">janiza.alvaro@lspu.edu.ph</a>
+				<br>
+				<a href="tel:09876263123">09876263123</a>
+		</div>
+
+		
+
+		<div class="Bottom">
+			<h2 class="h2">Education</h2>
+        			 <h3 class="h3">Elementary</h3>
+					  <p>Pangil Elementary School</p>
+					  <p>2008 - 2014</p>
+         			<h3 class="h3">Junior High School</h3>
+					  <p>Balian Integrated National Higch School.</p>
+					  <p>2014 - 2018</p>
+         			<h3 class="h3">Senior High School</h3>
+					  <p>Paete Science and Business College Inc.</p>
+					  <p>2018 - 2020</p>
+				 <h3 class="h3">College</h3>
+					  <a href="https://lspu.edu.ph/" target="_blank">Laguna State Polytechnic University</a>
+					  <p>2020 and so on</p>
+		</div>
+	</body>
+	</html
