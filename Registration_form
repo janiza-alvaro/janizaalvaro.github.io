@@ -1,1 +1,74 @@
+<html>
+<head>
+</head>
 
+<body>
+<h1 align=center>REGISTRATION FORM<Form></Form></h1>
+<form name=Registration>
+<table>
+<tr>
+<td>Full name:</td>
+<td><input name=Fullname size=25> 
+</tr>
+<tr>
+
+<td>Address</td>
+<td><input name=Address size=50></td>
+</tr>
+</tr>
+
+<td>Provicial Address</td>
+<td><input name=Provinciual size=50></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><select name=gender>
+<option>male
+<option>Female
+</select>
+
+Age:
+<select name=edad>
+<option>19
+<option>Above
+</select>
+
+Nationality:
+<select name=citizenship>
+<option>Filipino
+<option>other
+</select></td>
+</tr>
+</table>
+
+<hr>
+<hr>
+<table>
+    <td>COURSE</td>
+    <td><input name=Address size=></td>
+    </tr>
+    </tr>
+</table>
+
+<hr>
+<h2>ADMISSION</h2>
+<table>
+<tr>
+<td>
+<input type=checkbox name=picture>1x1 I.D Picture<br>
+<input type=checkbox name=admission>Admission Form<br>
+<input type=checkbox name=envelope>Long Brown Envelope<br>
+<input type=checkbox name=trascipt>Transcript of Record<br>
+<input type=checkbox name=medication>Dental Medical Certificate<br>
+<input type=checkbox namegood>Certificate of Good Moral Character<br>
+<input type=checkbox name=birtth>Birth Certificate</td>
+</tr>
+</table>
+<hr>
+<cente>
+<input type=submit value="Send Registration">
+<input type=reset value="Cancel">
+</center>
+</form>
+</body>
+</html>
